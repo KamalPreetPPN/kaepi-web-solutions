@@ -1,0 +1,21 @@
+
+.hero {
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 28px;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media(max-width: 600px) {
+  .hero { padding: 60px 15px; }
+  .btn { padding: 10px 22px; }
+}
+
+

@@ -1,0 +1,157 @@
+.page {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  background: #fff;
+  color: #222;
+}
+.nav {
+  backdrop-filter: blur(6px);
+}
+
+.softbg {
+  position: relative;
+  width: 100%;
+  background: #efefef; /* light grey backdrop */
+  overflow: hidden;
+}
+
+/* Blue blob (left) */
+.softbg::before {
+  content: "";
+  position: absolute;
+  left: -200px;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  background: rgba(0, 150, 255, 0.35);
+  filter: blur(150px);
+  border-radius: 50%;
+}
+
+/* Purple blob (right) */
+.softbg::after {
+  content: "";
+  position: absolute;
+  right: -200px;
+  top: 0;
+  width: 500px;
+  height: 500px;
+  background: rgba(160, 110, 255, 0.35);
+  filter: blur(150px);
+  border-radius: 50%;
+}
+
+.scard{
+  border: none; /* pura border hata de */
+  border-top: 2px solid #ff5757 !important; /* sirf upar border */
+}
+
+.heroCaption {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  max-width: 600px; /* Desktop width limit */
+}
+
+.text{
+  color:#F5F5F5;
+}
+.heroImg {
+  width: 100%;
+  height: 80vh;       /* desktop full view */
+  object-fit: cover;
+  object-position: center;
+}
+.priceBox{
+  background: linear-gradient(to bottom, #b9b0f7 0%, #7a74a1 0%, #ad9898 100%);
+}
+
+.map{
+  height: 320px;
+  border: 0;
+}
+
+.cinner {
+  height: auto; /* Remove fixed height */
+}
+@media (max-width: 1024px) {
+  .heroImg {
+    height: 65vh;     /* adjust height for tablets & small laptops */
+  }
+}
+
+@media (max-width: 992px) {
+  .heroImg {
+    height: 50vh;     /* adjust height for tablets & small laptops */
+  }
+}
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .heroImg {
+    height: 45vh;     /* adjust height for tablets & small laptops */
+  }
+  .map{
+  height: 200px;
+  border: 0;
+}
+}
+
+@media (max-width: 600px) {
+  .heroImg {
+    height: 30vh;     /* phones */
+    object-fit: cover; /* still looks professional */
+  }
+
+  .heroCaption {
+    padding: 14px !important;
+    max-width: 85% !important;
+    margin: 0 auto;
+  }
+
+  .heroCaption h1 {
+    font-size: 1.3rem !important;
+    line-height: 1.4 !important;
+  }
+
+  .heroCaption p {
+    font-size: 0.9rem !important;
+  }
+
+  .heroCaption a {
+    padding: 6px 12px !important;
+    font-size: 0.8rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .heroImg {
+    height: 27vh;  
+    
+  }
+  .map{
+  height: 200px;
+  border: 0;
+}
+  .heroCaption h1 {
+    font-size: 1.1rem !important;
+  }
+  h2{
+    font-size: 18px!important;
+  }
+  h3{ font-size: 18px!important;
+}
+   h5{ font-size: 16px!important;}
+   .aboutP{
+    font-size: 16px!important;
+   }
+   .priceP{
+    font-size: 16px!important;
+   }
+   a .priceP{
+    font-size: 16px!important;
+   }
+   p{
+    font-size: 14px;
+   }
+}
