@@ -22,7 +22,7 @@ export default function Footer() {
             <FaFacebook />
           </a>
           <a
-            href="https://www.instagram.com/lifefitnessgymsamana/"
+            href="https://www.instagram.com/kaepiwebsolutions/"
             target="_blank"
             aria-label="Instagram"
             rel="noopener noreferrer"
@@ -30,7 +30,7 @@ export default function Footer() {
             <FaInstagram />
           </a>
           <a
-            href="https://x.com/lifefitnessgym7"
+            href="https://x.com/Kamalpreet62444"
             target="_blank"
             aria-label="Twitter"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Footer() {
             <FaTwitter />
           </a>
           <a
-            href="https://www.youtube.com/@lifefitnessgymsamana"
+            href="https://youtube.com/@kaepiwebsolutionssamana?si=mOvBWyuERZjMtqRZ"
             target="_blank"
             aria-label="Youtube"
             rel="noopener noreferrer"
