@@ -14,7 +14,7 @@ export default function Footer() {
 
         <div className={styles.socialLinks}>
           <a
-            href="https://www.facebook.com/profile.php?id=61580296325466"
+            href="https://www.facebook.com/profile.php?id=61584568301907&sk=grid"
             target="_blank"
             aria-label="Facebook"
             rel="noopener noreferrer"
