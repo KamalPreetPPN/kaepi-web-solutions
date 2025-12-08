@@ -73,13 +73,13 @@ function Contact() {
   ></textarea>
 </div>
 
-                   <button className={navStyles.wbtn} type="submit">
+                   <button className={navStyles.wbtn3} type="submit">
                      Send Whatsapp Message
                    </button>
                  </form>
                </div>
               
-               <div className="col-md-6 ">
+               <div className="col-md-6 mt-md-0 mt-4">
                  <iframe
                    className={`w-100 ${styles.map}`}
                    title="Kaepi Web Solutions, Location In Samana, patiala, punjab | Best Website & Advertisement Agency Samana"
